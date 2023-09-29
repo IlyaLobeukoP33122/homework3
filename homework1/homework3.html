@@ -1,0 +1,48 @@
+<html>
+<head>
+    
+    <meta charset="UTF-8" />
+    <title>Homework</title>
+    <style>
+        .container {
+  display: flex;
+}
+
+.block {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.block1 {
+  background-color: red;
+  flex-basis: 20%;
+}
+
+.block2 {
+  background-color: blue;
+  flex-basis: 60%;
+}
+
+.block3 {
+  background-color: green;
+  flex-basis: 20%;
+}
+
+.container > * {
+  flex-grow: 1;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="block block1">Number1</div>
+        <div class="block block2">Number2</div>
+        <div class="block block3">Number3</div>
+      </div>
+</body>
+
+
+</html>
